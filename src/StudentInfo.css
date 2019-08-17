@@ -1,0 +1,68 @@
+.test-number {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.student-demographics,
+.student-grades {
+  list-style: none;
+  color: #666;
+  /* font-size: 0.9rem; */
+}
+
+.student {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.student-details {
+  flex-grow: 1;
+  padding: 0 40px;
+}
+
+.student-name {
+  text-transform: uppercase;
+}
+
+.collapsible {
+  border: none;
+  background: transparent;
+  font-size: 3rem;
+  color: #999;
+  cursor: pointer;
+}
+
+.collapsible:hover {
+  color: black;
+}
+
+.tag {
+  background: #ccc;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  color: #666;
+}
+
+.tag-input {
+  width: 10rem;
+  /* margin: 35px; */
+  font-size: 1rem;
+  display: flex;
+}
+
+.tag-container {
+  padding-left: 35px;
+}
